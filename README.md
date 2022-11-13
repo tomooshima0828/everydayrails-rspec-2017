@@ -26,3 +26,9 @@ more about Git, I recommend the free resources [Git Immersion] or [Try Git].
 [Everyday Rails Testing with RSpec]: https://leanpub.com/everydayrailsrspec
 [Git Immersion]: http://gitimmersion.com/
 [Try Git]: http://www.codeschool.com/courses/try-git
+
+M2 MacBook Air 2022-11-13
+Ruby 2.6.8, Rails 5.1.7 動作を確認
+M2でRuby2.6.8をインストールするときにエラーが発生
+解決 https://kenzoblog.vercel.app/posts/m1-chip
+RUBY_CFLAGS="-w" rbenv install 2.6.8
