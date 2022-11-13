@@ -32,3 +32,6 @@ Ruby 2.6.8, Rails 5.1.7 動作を確認
 M2でRuby2.6.8をインストールするときにエラーが発生
 解決 https://kenzoblog.vercel.app/posts/m1-chip
 RUBY_CFLAGS="-w" rbenv install 2.6.8
+
+# RSpecコマンド
+bin/rspec
